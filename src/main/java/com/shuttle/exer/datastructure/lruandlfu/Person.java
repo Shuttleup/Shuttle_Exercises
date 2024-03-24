@@ -1,4 +1,4 @@
-package com.shuttle.exer.datastructure;
+package com.shuttle.exer.datastructure.lruandlfu;
 
 public class Person {
 
