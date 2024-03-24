@@ -1,4 +1,4 @@
-package com.shuttle.exer.leetcode;
+package com.shuttle.exer.leetcode.unclassified;
 
 import java.util.ArrayList;
 import java.util.HashMap;

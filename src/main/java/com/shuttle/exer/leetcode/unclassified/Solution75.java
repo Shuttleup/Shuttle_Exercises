@@ -1,4 +1,4 @@
-package com.shuttle.exer.leetcode;
+package com.shuttle.exer.leetcode.unclassified;
 
 public class Solution75 {
 
