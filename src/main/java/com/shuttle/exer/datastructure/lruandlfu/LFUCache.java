@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.TreeMap;
 
 /**
- * 自定义 LRU Cache
+ * 自定义 LFU Cache
  *
  * @param <K> CacheKey
  * @param <V> CacheValue
@@ -191,6 +191,12 @@ public class LFUCache<K, V> implements BaseCache<K, V> {
         }
     }
 
+    /**
+     * LFUNode 需要 frequent 属性
+     *
+     * @param <K> CacheKey
+     * @param <V> CacheValue
+     */
     private static class LFUNode<K, V> extends BaseCache.Node<K, V> {
 
         int frequent;
